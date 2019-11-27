@@ -31,19 +31,17 @@ array2 = [
   ENNET_HOUSE.sort!,
   ENFIELD_TENNIS_ACADEMY.sort!
 ]
-# array2[0].sort!
-# array2[1].sort!
 array2
 end
 
 def matrix_lookup(matrix, row, column)
   # Return the matrix's content at row and column
-  return  matrix[row][column]
+  matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
   matrix[row][column] = new_value
-  return matrix
+  matrix
 end
