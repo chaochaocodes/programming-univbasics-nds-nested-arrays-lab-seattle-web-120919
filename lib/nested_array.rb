@@ -29,19 +29,10 @@ def array_literal_matrix
   # alphabetically by the first character.
 array2 = [
   ENNET_HOUSE = [
-    "Don Gately",
-    "Joelle van Dyne",
-    "Pat M.",
-    "Kate Gompert",
-    "Bruce Green"
-  ]
-
+    "Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"
+  ],
   ENFIELD_TENNIS_ACADEMY = [
-    "Hal Incandenza",
-    "Lyle",
-    "Gerhard Schtitt",
-    "Mario Incandenza",
-    "Michael Pemulis"
+    "Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"
   ]
 ]
 array2[0].sort
